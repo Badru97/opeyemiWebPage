@@ -1,0 +1,23 @@
+/* Center the elements and set the background color to blue */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Ensure the page takes at least the full viewport height */
+  margin: 0;
+  background-color: blue;
+}
+
+/* Style the header, main content, and footer */
+header, main, footer {
+  text-align: center;
+  padding: 20px;
+  color: white; /* Text color */
+}
+
+/* Style the Slack Display Picture */
+img {
+  max-width: 150px; /* Adjust the maximum image size as needed */
+  border-radius: 50%; /* Make the image circular if applicable */
+}
